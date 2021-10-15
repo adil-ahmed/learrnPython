@@ -13,3 +13,13 @@ elif number2>number1 and number2>number3:
 else:
     max = number3
 print("Max(",number1,",",number2,",",number3,") =", max)
+
+#leap year program
+year =  input("Enter the year: ")
+year = int(year)
+if year%400 == 0:
+    print(year,"is a leap year")
+elif year%100 == 0:
+    print(year,"is not a leap year")
+elif year%4 == 0:
+    print(year,"is a leap year")

@@ -43,7 +43,7 @@ print("5/2 ",5/2)
 print("Division only integer part 5/2: ",5//2)
 print("Square of 5: ",5**2)
 print("5%2: ",5%2)
-'''
+
 
 #comparison operator
 a = 50
@@ -61,3 +61,11 @@ x = 30
 y = 60
 print("x and y are even", x%2==0 and y%2==0)
 print("y>70 or y<100", y>70 or y<100)
+'''
+
+#List
+numbers = [1,2,3,4,5]
+print(numbers)
+print(numbers[2])
+# checking whether a number belongs to the list or not
+print(6 in numbers)
